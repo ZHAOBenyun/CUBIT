@@ -8,8 +8,10 @@ Diagnosing infrastructure defects is a crucial yet highly complex task that can 
 <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/sample-min.png"> 
 
 
-*Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below.* The CUBIT-RGB-v1 dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: \textbf{Crack, Spalling, and Moisture}. **Red Rectangle** indicates the output prediction box with inferred defect type and confidence score from YOLOv6-l trained on the training set of our CUBIT-RGB-v1 dataset.\
-<img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/index_show-min.png" width=60% height=60%>
+*Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below.* The CUBIT-RGB-v1 dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: \textbf{Crack, Spalling, and Moisture}. **Red Rectangle** indicates the output prediction box with inferred defect type and confidence score from YOLOv6-l trained on the training set of our CUBIT-RGB-v1 dataset.
+<p align="center">
+  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/index_show-min.png" width=60% height=60%>
+</p>
 
 *Qualitative visualization of real-world experiment is shown below.* On the left, three of our UAVs are cooperating to detect the building. On the right, each of the four columns shows the results of the facade in one direction of this building. The inspection results of this logistics building demonstrate that the deep learning models trained on CUBIT-RGB-v1 can be easily transferred to real-world inspection application. \
 <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/goodman-min.png">
