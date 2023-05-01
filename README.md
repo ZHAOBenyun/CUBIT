@@ -10,7 +10,7 @@ Diagnosing infrastructure defects is a crucial yet highly complex task that can 
 </p>
 
 
-*Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below.* The CUBIT-RGB-v1 dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: \textbf{Crack, Spalling, and Moisture}. **Red Rectangle** indicates the output prediction box with inferred defect type and confidence score from YOLOv6-l trained on the training set of our CUBIT-RGB-v1 dataset.
+*Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below.* The CUBIT-RGB-v1 dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: **Crack, Spalling, and Moisture**. Red Rectangle indicates the output prediction box with inferred defect type and confidence score from YOLOv6-l trained on the training set of our CUBIT-RGB-v1 dataset.
 <p align="center">
   <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/index_show-min.png" width=60% height=60%>
 </p>
