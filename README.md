@@ -8,7 +8,7 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 **Samples in CUBIT
 * The sample images in CUBIT has been shown below.* All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scnarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
 <p align="center">
-  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/sample-min.png"> 
+  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/sample.png"> 
 </p>
 
 
@@ -21,12 +21,12 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 
 *Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below.* We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: **Crack, Spalling, and Moisture**. Rectangles indicate the output prediction box (\textcolor{red}{Red} for \textbf{Crack}, \textcolor{pink}{Pink} for \textbf{Spalling}, and \textcolor{orange}{Orange} for \textbf{Moisture}) with inferred defect type and confidence score from YOLOv6-l trained on the training set of our proposed dataset.
 <p align="center">
-  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/index_show-min.png" width=60% height=60%>
+  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/index_show.png" width=60% height=60%>
 </p>
 
 *Qualitative visualization of UAV-based real-world experiment is shown below.* On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
 <p align="center">
-  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/goodman.png">
+  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/goodman_zigzag.png">
 </p>
 
 
