@@ -1,21 +1,30 @@
-# CUBIT-RGB-v1
-## Visual Detection of Infrastructure Defects: A Comprehensive Experiment Evaluation of Deep Learning
+# CUBIT
+## CUBIT: A High-resolution Infrastructure Defect Dataset Fully Evaluated with Autonomous Detection Framework
 
 **Abstract:**\
-Diagnosing infrastructure defects is a crucial yet highly complex task that can be more safely and efficiently performed through machine vision instead of human visual inspection. Deep learning-based autonomous visual methods have demonstrated superior performance in numerous object detection tasks, but they have not been thoroughly explored for infrastructure inspection due to the lack of high-quality datasets. To address this gap, we present CUBIT-RGB-v1, a high-resolution infrastructure defects dataset comprising over 5500 images with resolutions ranging from $4624\times3472$ to $8000\times6000$ obtained using professional acquisition equipment on various robotic platforms in multiple scenarios. In contrast to other datasets, CUBIT-RGB-v1 covers a broader spectrum of practical situations, backgrounds, and defect types, making it more extensive and comprehensive. Extensive benchmarking experiments have been conducted by using more than 25 state-of-the-art deep neural networks to validate the feasibility of our dataset. To the best of our knowledge, this is the first work to comprehensively benchmark autonomous infrastructure inspection performances on high-resolution images, providing references for future researchers to develop new specific defect detection solutions. The reliability and feasibility of our dataset have been further demonstrated by utilizing an object detection network trained on our dataset for real-world building inspection. 
+Learning-based visual inspection, integrated with unmanned robotic system, offers a more effective, efficient, and safer alternative for infrastructure inspection tasks that are traditionally heavily reliant on human labor. However, the potential of learning-based inspection methods remains limited due to the lack of publicly available, high-quality datasets. This paper presents CUBIT, a high-resolution defect detection dataset comprising more than $5500$ images with resolutions up to $8000\times6000$ which covers a broader spectrum of practical situations, backgrounds, and defect categories than existing publicly available datasets. We conduct extensive experiments to benchmark the performance of state-of-the-art real-time detection methods on our proposed dataset, validating the effectiveness of it. Moreover, based on the benchmark results, we develop a module named GIPFPP to integrate multi-scale feature, enhancing the AP by 3\% while reducing the number of parameters by 10\% on baseline model. Additionally, a real-site UAV-based inspection has been conducted to verify the reliability of the dataset.
 
-*Sample images from InnoAIR-HK-v1 dataset are shown below.* The first row of images is crack defects on building facades. The second row is about spalling, and the third is about moisture. These images are collected by UAVs and DSLR in the old districts of Hong Kong. 
+
+**Samples in CUBIT
+* The sample images in CUBIT has been shown below.* All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scnarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
 <p align="center">
-  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/sample-min.png"> 
+  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/sample.png"> 
 </p>
 
 
-*Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below.* The CUBIT-RGB-v1 dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: **Crack, Spalling, and Moisture**. Red Rectangle indicates the output prediction box with inferred defect type and confidence score from YOLOv6-l trained on the training set of our CUBIT-RGB-v1 dataset.
+**Defect detection framework based on CUBIT
+* The visualization of defect detection framework based on CUBIT dataset is illustrated below *, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
 <p align="center">
-  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/index_show-min.png" width=60% height=60%>
+  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/frame.png"> 
 </p>
 
-*Qualitative visualization of real-world experiment is shown below.* On the left, three of our UAVs are cooperating to detect the building. On the right, each of the four columns shows the results of the facade in one direction of this building. The inspection results of this logistics building demonstrate that the deep learning models trained on CUBIT-RGB-v1 can be easily transferred to real-world inspection application. 
+
+*Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below.* We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: **Crack, Spalling, and Moisture**. Rectangles indicate the output prediction box (\textcolor{red}{Red} for \textbf{Crack}, \textcolor{pink}{Pink} for \textbf{Spalling}, and \textcolor{orange}{Orange} for \textbf{Moisture}) with inferred defect type and confidence score from YOLOv6-l trained on the training set of our proposed dataset.
+<p align="center">
+  <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/index_show.png" width=60% height=60%>
+</p>
+
+*Qualitative visualization of UAV-based real-world experiment is shown below.* On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
 <p align="center">
   <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/goodman.png">
 </p>
