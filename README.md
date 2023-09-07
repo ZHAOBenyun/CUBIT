@@ -12,7 +12,7 @@ Samples in CUBIT
 </p>
 
 
-**Defect detection framework based on CUBIT
+Defect detection framework based on CUBIT
 * The visualization of defect detection framework based on CUBIT dataset is illustrated below *, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
 <p align="center">
   <img src="https://github.com/ZHAOBenyun/CUBIT-RGB-v1/blob/master/frame.png"> 
