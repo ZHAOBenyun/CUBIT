@@ -1,8 +1,9 @@
 <h1 style="text-align: center; font-size: 36px; font-family: 'system-ui';"> CUBIT: A High-resolution Infrastructure Defect Dataset Fully Evaluated with Autonomous Detection Framework
+    <br>
+    <span style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';">    Submitted to International Conference on Acoustics, Speech, & Signal Processing
+</span>
 </h1>
-<h2  style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';">
-    Submitted to International Conference on Acoustics, Speech, & Signal Processing
-</h2>
+
 <div style=" text-align: center; font-size: 17px;">
 Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>1, 2</sup>, Guidong Yang<sup>1</sup>, Junjie Wen<sup>1</sup>, Jihan Zhang<sup>1</sup>,  Xi Chen<sup>1</sup>, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup>, Fellow, IEEE
 </div>
