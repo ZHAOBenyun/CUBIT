@@ -66,7 +66,7 @@ We enlarge the prediction results in the bottom right corner of framework images
 
 *Qualitative visualization of UAV-based real-world experiment is shown below* On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
 <p align="center">
-  <img src="https://github.com/ZHAOBenyun/CUBIT/blob/master/goodman_zigzag.png">
+  <img src="./goodman_zigzag.png">
 </p>
 
 
