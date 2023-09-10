@@ -51,158 +51,20 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
   <img src="./frame.png"> 
 </p>
 
-<table border="1" style="border-collapse: collapse; width: 100%;">
-    <thead>
-        <tr>
-            <th>Dataset</th>
-            <th>Num. of Images</th>
-            <th>Resolution</th>
-            <th>Data Collection Platform</th>
-            <th>Category</th>
-            <th>Scenario</th>
-            <th>Material</th>
-            <th>Experiments</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan="2">RDD-2018</td>
-            <td rowspan="2">9053</td>
-            <td rowspan="2">600x600</td>
-            <td rowspan="2">Smartphones</td>
-            <td>Crack</td>
-            <td rowspan="2">Pavement</td>
-            <td rowspan="2">Asphalt</td>
-            <td rowspan="2">- SSD</td>
-        </tr>
-        <tr>
-            <td>Corrosion</td>
-        </tr>
-        <tr>
-            <td rowspan="2">RDD-2019</td>
-            <td rowspan="2">13135</td>
-            <td rowspan="2">600x600</td>
-            <td rowspan="2">Smartphones</td>
-            <td>Crack</td>
-            <td rowspan="2">Pavement</td>
-            <td rowspan="2">Asphalt</td>
-            <td rowspan="2">- SSD</td>
-        </tr>
-        <tr>
-            <td>Corrosion</td>
-        </tr>
-        <tr>
-            <td rowspan="2">RDD-2020</td>
-            <td rowspan="2">26336</td>
-            <td>600x600</td>
-            <td rowspan="2">Smartphones</td>
-            <td>Crack</td>
-            <td rowspan="2">Pavement</td>
-            <td rowspan="2">Asphalt</td>
-            <td rowspan="2">- SSD</td>
-        </tr>
-        <tr>
-            <td>720x720</td>
-            <td>Pothole</td>
-        </tr>
-        <tr>
-            <td rowspan="4">RDD-2022</td>
-            <td rowspan="4">47420</td>
-            <td>512x512</td>
-            <td>Smartphones</td>
-            <td rowspan="4">-</td>
-            <td rowspan="4">Pavement</td>
-            <td rowspan="4">Asphalt</td>
-            <td rowspan="4">-</td>
-        </tr>
-        <tr>
-            <td>600x600</td>
-            <td>Hand-held cameras</td>
-            <td>Crack</td>
-        </tr>
-        <tr>
-            <td>720x720</td>
-            <td>UAV cameras</td>
-            <td>Pothole</td>
-        </tr>
-        <tr>
-            <td>3650x2044</td>
-            <td>Google street view</td>
-        </tr>
-        <tr>
-            <td rowspan="2">PID</td>
-            <td rowspan="2">7237</td>
-            <td rowspan="2">640x640</td>
-            <td rowspan="2">Crawled from Internet</td>
-            <td rowspan="2">Crack</td>
-            <td rowspan="2">Pavement</td>
-            <td rowspan="2">Asphalt</td>
-            <td>a. YOLOv2</td>
-        </tr>
-        <tr>
-            <td>b. Fast R-CNN</td>
-        </tr>
-        <tr>
-            <td>Murad</td>
-            <td>2620</td>
-            <td>up to 838x809</td>
-            <td>Smartphones</td>
-            <td>Crack</td>
-            <td>Pavement</td>
-            <td>Asphalt</td>
-            <td>- Faster R-CNN</td>
-        </tr>
-        <tr>
-            <td rowspan="2">CODEBRIM</td>
-            <td rowspan="2">1590</td>
-            <td rowspan="2">up to 6000x4000</td>
-            <td>Hand-held cameras</td>
-            <td>Crack</td>
-            <td rowspan="2">Bridge</td>
-            <td rowspan="2">Concrete</td>
-            <td>a. MetaQNN</td>
-        </tr>
-        <tr>
-            <td>UAV Cameras</td>
-            <td>Corrosion</td>
-            <td>b. ENAS</td>
-        </tr>
-        <tr>
-            <td rowspan="9"><strong>CUBIT</strong></td>
-            <td rowspan="9"><strong>5527</strong></td>
-            <td rowspan="9">-</td>
-            <td rowspan="9"><strong>Cameras in Unmanned Systems</strong></td>
-            <td rowspan="9">-</td>
-            <td rowspan="9">-</td>
-            <td rowspan="9">-</td>
-            <td><strong>a. Faster R-CNN</strong></td>
-        </tr>
-        <tr>
-            <td><strong>b. PP-YOLO</strong></td>
-        </tr>
-        <tr>
-            <td><strong>c. PP-YOLOv2</strong></td>
-        </tr>
-        <tr>
-            <td><strong>d. YOLOX</strong></td>
-        </tr>
-        <tr>
-            <td><strong>e. YOLOv5</strong></td>
-        </tr>
-        <tr>
-            <td><strong>f. YOLOv7</strong></td>
-        </tr>
-        <tr>
-            <td><strong>g. YOLOv6</strong></td>
-        </tr>
-        <tr>
-            <td><strong><em>h. YOLOv6+GIPFPP(ours)</em></strong></td>
-        </tr>
-        <tr>
-            <td><strong><em>i. Real-site experiment</em></strong></td>
-        </tr>
-    </tbody>
-</table>
+## The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
+
+| Dataset       | Num. of Images | Resolution          | Data Collection Platform           | Category               | Scenario                 | Material             | Experiments                                  |
+|---------------|----------------|----------------------|------------------------------------|------------------------|--------------------------|----------------------|-----------------------------------------------|
+| RDD-2018      | 9053           | 600x600              | Smartphones                        | Crack, Corrosion       | Pavement                 | Asphalt              | SSD                                           |
+| RDD-2019      | 13135          | 600x600              | Smartphones                        | Crack, Corrosion       | Pavement                 | Asphalt              | SSD                                           |
+| RDD-2020      | 26336          | 600x600, 720x720     | Smartphones                        | Crack, Pothole         | Pavement                 | Asphalt              | SSD                                           |
+| RDD-2022      | 47420          | 512x512, 600x600, 720x720, 3650x2044 | Smartphones, Hand-held cameras, UAV cameras, Google street view | Crack, Pothole     | Pavement             | Asphalt              | -                                             |
+| PID           | 7237           | 640x640              | Crawled from Internet               | Crack                  | Pavement                 | Asphalt              | YOLOv2, Fast R-CNN                            |
+| Murad         | 2620           | up to 838x809        | Smartphones                        | Crack                  | Pavement                 | Asphalt              | Faster R-CNN                                  |
+| CODEBRIM      | 1590           | up to 6000x4000      | Hand-held cameras, UAV Cameras     | Crack, Corrosion       | Bridge                   | Concrete             | MetaQNN, ENAS                                 |
+| **CUBIT**     | **5527**       | **4624x3472 and 8000x6000** | **Cameras in Unmanned Systems**  | **Crack, Spallinig, Moisture** | **Building (65%), Pavement (29%), Bridge (6%)** | **Concrete, Asphalt, Stone** | **Faster R-CNN, PP-YOLO, PP-YOLOv2, YOLOX, YOLOv5, YOLOv7, YOLOv6, YOLOv6+GIPFPP(ours), Real-site experiment** |
+
+
 
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
