@@ -51,6 +51,160 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
   <img src="./frame.png"> 
 </p>
 
+<table border="1" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th>Dataset</th>
+            <th>Num. of Images</th>
+            <th>Resolution</th>
+            <th>Data Collection Platform</th>
+            <th>Category</th>
+            <th>Scenario</th>
+            <th>Material</th>
+            <th>Experiments</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">RDD-2018</td>
+            <td rowspan="2">9053</td>
+            <td rowspan="2">600x600</td>
+            <td rowspan="2">Smartphones</td>
+            <td>Crack</td>
+            <td rowspan="2">Pavement</td>
+            <td rowspan="2">Asphalt</td>
+            <td rowspan="2">- SSD</td>
+        </tr>
+        <tr>
+            <td>Corrosion</td>
+        </tr>
+        <tr>
+            <td rowspan="2">RDD-2019</td>
+            <td rowspan="2">13135</td>
+            <td rowspan="2">600x600</td>
+            <td rowspan="2">Smartphones</td>
+            <td>Crack</td>
+            <td rowspan="2">Pavement</td>
+            <td rowspan="2">Asphalt</td>
+            <td rowspan="2">- SSD</td>
+        </tr>
+        <tr>
+            <td>Corrosion</td>
+        </tr>
+        <tr>
+            <td rowspan="2">RDD-2020</td>
+            <td rowspan="2">26336</td>
+            <td>600x600</td>
+            <td rowspan="2">Smartphones</td>
+            <td>Crack</td>
+            <td rowspan="2">Pavement</td>
+            <td rowspan="2">Asphalt</td>
+            <td rowspan="2">- SSD</td>
+        </tr>
+        <tr>
+            <td>720x720</td>
+            <td>Pothole</td>
+        </tr>
+        <tr>
+            <td rowspan="4">RDD-2022</td>
+            <td rowspan="4">47420</td>
+            <td>512x512</td>
+            <td>Smartphones</td>
+            <td rowspan="4">-</td>
+            <td rowspan="4">Pavement</td>
+            <td rowspan="4">Asphalt</td>
+            <td rowspan="4">-</td>
+        </tr>
+        <tr>
+            <td>600x600</td>
+            <td>Hand-held cameras</td>
+            <td>Crack</td>
+        </tr>
+        <tr>
+            <td>720x720</td>
+            <td>UAV cameras</td>
+            <td>Pothole</td>
+        </tr>
+        <tr>
+            <td>3650x2044</td>
+            <td>Google street view</td>
+        </tr>
+        <tr>
+            <td rowspan="2">PID</td>
+            <td rowspan="2">7237</td>
+            <td rowspan="2">640x640</td>
+            <td rowspan="2">Crawled from Internet</td>
+            <td rowspan="2">Crack</td>
+            <td rowspan="2">Pavement</td>
+            <td rowspan="2">Asphalt</td>
+            <td>a. YOLOv2</td>
+        </tr>
+        <tr>
+            <td>b. Fast R-CNN</td>
+        </tr>
+        <tr>
+            <td>Murad</td>
+            <td>2620</td>
+            <td>up to 838x809</td>
+            <td>Smartphones</td>
+            <td>Crack</td>
+            <td>Pavement</td>
+            <td>Asphalt</td>
+            <td>- Faster R-CNN</td>
+        </tr>
+        <tr>
+            <td rowspan="2">CODEBRIM</td>
+            <td rowspan="2">1590</td>
+            <td rowspan="2">up to 6000x4000</td>
+            <td>Hand-held cameras</td>
+            <td>Crack</td>
+            <td rowspan="2">Bridge</td>
+            <td rowspan="2">Concrete</td>
+            <td>a. MetaQNN</td>
+        </tr>
+        <tr>
+            <td>UAV Cameras</td>
+            <td>Corrosion</td>
+            <td>b. ENAS</td>
+        </tr>
+        <tr>
+            <td rowspan="9"><strong>CUBIT</strong></td>
+            <td rowspan="9"><strong>5527</strong></td>
+            <td rowspan="9">-</td>
+            <td rowspan="9"><strong>Cameras in Unmanned Systems</strong></td>
+            <td rowspan="9">-</td>
+            <td rowspan="9">-</td>
+            <td rowspan="9">-</td>
+            <td><strong>a. Faster R-CNN</strong></td>
+        </tr>
+        <tr>
+            <td><strong>b. PP-YOLO</strong></td>
+        </tr>
+        <tr>
+            <td><strong>c. PP-YOLOv2</strong></td>
+        </tr>
+        <tr>
+            <td><strong>d. YOLOX</strong></td>
+        </tr>
+        <tr>
+            <td><strong>e. YOLOv5</strong></td>
+        </tr>
+        <tr>
+            <td><strong>f. YOLOv7</strong></td>
+        </tr>
+        <tr>
+            <td><strong>g. YOLOv6</strong></td>
+        </tr>
+        <tr>
+            <td><strong><em>h. YOLOv6+GIPFPP(ours)</em></strong></td>
+        </tr>
+        <tr>
+            <td><strong><em>i. Real-site experiment</em></strong></td>
+        </tr>
+    </tbody>
+</table>
+
+
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h3>Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below
 </h3>
