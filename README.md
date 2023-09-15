@@ -8,7 +8,7 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2</sup>, Guidong Yang<sup>1</sup>, Jun
 </div>
 <br>
 <div  style="text-align: center; font-size: 17px;" >
-1.Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong  
+1.Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong  <br />  
     2.School of Electronics and Information Engineering,Tongji University
 
 </div>
