@@ -16,17 +16,21 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2</sup>, Guidong Yang<sup>1</sup>, Jun
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center" > 
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
-<a href="https://www.overleaf.com/" style="color: white; text-decoration: none;">Paper</a>
+<a href="#" style="color: white; text-decoration: none;">Paper</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="https://github.com/ZHAOBenyun/CUBIT" style="color: white; text-decoration: none;">Dataset</a>
+<a href="#" style="color: white; text-decoration: none;">Dataset</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
 <a href="#" style="color: white; text-decoration: none;">Supplementary</a>
 </button>
 </div>
+
+<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
+<a href="https://zhaobenyun.github.io/CUBIT/" style="color: white; text-decoration: none;">Project Page</a>
+</button>
 
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
