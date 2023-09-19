@@ -37,23 +37,23 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h3>Sample images in CUBIT</h3>
 </div>
-* The sample images in CUBIT has been shown below.* All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scenarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
+The sample images in CUBIT has been shown below. All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scenarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
 
 Image Resolution | Year | Structure Type | Number of Images | Defect Type | Annotation Level
 --- | --- | --- | --- | --- | --- |
 4624x3472, 8000x6000 | 2023 | Building, Pavement, Bridge | 5527 | Crack, Spalling, Moisture | Bounding-box Level
 
 <p align="center">
-  <img src="./sample.png" width=60% height=60%> 
+  <img src="./sample.png" width=80% height=80%> 
 </p>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h3>Defect Detection Framework based on CUBIT</h3>
 </div>
 
-* The visualization of defect detection framework based on CUBIT dataset is illustrated below *, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
+The visualization of defect detection framework based on CUBIT dataset is illustrated below, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
 <p align="center">
-  <img src="./frame.png"> 
+  <img src="./frame.png" width=80% height=80%> 
 </p>
 
 ## The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
