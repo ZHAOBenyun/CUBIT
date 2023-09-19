@@ -57,15 +57,6 @@ The visualization of defect detection framework based on CUBIT dataset is illust
   <img src="./frame.png" width=80% height=80%> 
 </p>
 
-
-<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-<h2>Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below</h2>
-</div>
-We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: Building facade, Pavement, and Bridge, and aims for three types of defect: Crack, Spalling, and Moisture. Rectangles indicate the output prediction box Red for Crack, Pink for Spalling, and Orange for Moisture with inferred defect type and confidence score from YOLOv6-n+GIPFPP modle trained on the training set of our proposed dataset.
-<p align="center">
-  <img src="./index_show.png" width=70% height=70%>
-</p>
-
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Acknowledgement</h2>
 </div>
