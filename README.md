@@ -1,6 +1,6 @@
 
 <h1 style="text-align: center; font-size: 36px; font-family: 'Sama Devanagari'">
-  CUBIT: A High-resolution Infrastructure Defect Dataset Evaluated with
+  CUBIT: A High-resolution Infrastructure Defect Dataset <br> Fully Evaluated with
   Autonomous Detection Framework
 </h1>
 <h2>
@@ -135,25 +135,8 @@
   <img src="./sample.png" style="width: 80%" />
 </p>
 
-<div
-  style="
-    text-align: center;
-    font-family: 'American Typewriter';
-    font-weight: 400;
-  "
->
-  <h3>Defect Detection Framework based on CUBIT</h3>
-</div>
-
-* The visualization of defect detection framework based on CUBIT dataset is
-illustrated below *, which encompasses the entire process: data collection by
-autonomous unmanned system; the baseline network integrated with our GIPFPP
-module; the output of defect detection results.
-<p align="center">
-  <img src="./frame.png" style="width: 80%" />
-</p>
-
-## The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
+<h3> The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
+</h3>
 | Dataset | Num. of Images | Resolution | Data Collection Platform | Category |
 Scenario | Material | Experiments |
 |---------------|----------------|----------------------|------------------------------------|------------------------|--------------------------|----------------------|-----------------------------------------------|
@@ -173,6 +156,27 @@ Bridge (6%)** | **Concrete, Asphalt, Stone** | **Faster R-CNN, PP-YOLO,
 PP-YOLOv2, YOLOX, YOLOv5, YOLOv7, YOLOv6, YOLOv6+GIPFPP(ours), Real-site
 experiment** |
 
+
+<div
+  style="
+    text-align: center;
+    font-family: 'American Typewriter';
+    font-weight: 400;
+  "
+>
+  <h3>Defect Detection Framework based on CUBIT</h3>
+</div>
+
+* The visualization of defect detection framework based on CUBIT dataset is
+illustrated below *, which encompasses the entire process: data collection by
+autonomous unmanned system; the baseline network integrated with our GIPFPP
+module; the output of defect detection results.
+<p align="center">
+  <img src="./frame.png" style="width: 80%" />
+</p>
+
+
+
 <div
   style="
     text-align: center;
@@ -186,7 +190,8 @@ experiment** |
   </h3>
 </div>
 
-## Experimental Results The evaluation results of SOTA real-time detection
+<h2> Experimental Results The evaluation results of SOTA real-time detection
+</h2>
 methods and YOLOv6-n with our GIPFPP module are benchmarked in the table below.
 After switching from the original module to GIPFPP module, the AP of YOLOv6-n is
 improved by 3%, while its number of parameters is reduced by 10%. The
@@ -204,7 +209,9 @@ Model | #Params.(M) | FLOPs(G) | Size | mAP$_{50}^{test}$ / mAP$_{50:95}^{test}$
 | 8.94 | 68.51 | 1024 | 77.9% / 49.4% | 7.6 | | YOLOv6-n(baseline) | 4.63 |
 29.03 | 1024 | 76.3% / 47.9% | 2.2 | | YOLOv6-s | 18.50 | 115.64 | 1024 | 79.0%
 / 48.2% | 5.3 | | **YOLOv6-n+GIFPFF(ours)** | **4.14 (-0.49)** | **28.02
-(-1.01)** | 1024 | **77.5% (+1.2) / 50.3% (+3.1)** | **2.2** | We enlarge the
+(-1.01)** | 1024 | **77.5% (+1.2) / 50.3% (+3.1)** | **2.2** |
+
+We enlarge the
 prediction results in the bottom right corner of framework images above. CUBIT
 dataset covers three infrastructure types: **Building facade, Pavement**, and
 **Bridge**, and aims for three types of defect: **Crack, Spalling, and
@@ -224,3 +231,6 @@ detection results of four direction façades of the building are displayed.
 <p align="center">
   <img src="./goodman_zigzag.png" style="width: 80%" />
 </p>
+<h2>Acknowledgement</h2>
+</div>
+This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
