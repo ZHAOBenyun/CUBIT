@@ -33,29 +33,15 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2</sup>, Guidong Yang<sup>1</sup>, Jun
 </div>
 
 <div style="text-align: justify; text-justify:inter-ideograph;">
-Learning-based visual inspection, integrated with unmanned robotic system, offers a more effective, efficient, and safer alternative for infrastructure inspection tasks that are traditionally heavily reliant on human labor. However, the potential of learning-based inspection methods remains limited due to the lack of publicly available, high-quality datasets. This paper presents CUBIT, a high-resolution defect detection dataset comprising more than <strong><em>5500</em></strong> images with resolutions up to<strong><em>8000 * 6000</em></strong> which covers a broader spectrum of practical situations, backgrounds, and defect categories than existing publicly available datasets. We conduct extensive experiments to benchmark the performance of state-of-the-art real-time detection methods on our proposed dataset, validating the effectiveness of it. Moreover, based on the benchmark results, we develop a module named GIPFPP to integrate multi-scale feature, enhancing the AP by 3% while reducing the number of parameters by 10% on baseline model. Additionally, a real-site UAV-based inspection has been conducted to verify the reliability of the dataset.
+Learning-based visual inspection, integrated with unmanned robotic system, offers a more effective, efficient, and safer alternative for infrastructure inspection tasks that are traditionally heavily reliant on human labor. However, the potential of learning-based inspection methods remains limited due to the lack of publicly available, high-quality datasets. This paper presents CUBIT, a high-resolution defect detection dataset comprising more than <strong><em>5500</em></strong> images with resolutions up to <strong><em>8000 x 6000</em></strong> which covers a broader spectrum of practical situations, backgrounds, and defect categories than existing publicly available datasets. We conduct extensive experiments to benchmark the performance of state-of-the-art real-time detection methods on our proposed dataset, validating the effectiveness of it. Moreover, based on the benchmark results, we develop a module named GIPFPP to integrate multi-scale feature, enhancing the AP by 3% while reducing the number of parameters by 10% on baseline model. Additionally, a real-site UAV-based inspection has been conducted to verify the reliability of the dataset.
 </div>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h3>Sample images in CUBIT</h3>
 </div>
-* The sample images in CUBIT has been shown below.* All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scnarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
-<p align="center">
-  <img src="./sample.png" style="width: 80%;"> 
-</p>
-
-
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-<h3>Defect Detection Framework based on CUBIT</h3>
-</div>
-
-* The visualization of defect detection framework based on CUBIT dataset is illustrated below *, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
-<p align="center">
-  <img src="./frame.png" style="width: 80%;"> 
-</p>
-<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-<h3> The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
-</h3>
+<h4> The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
+</h4>
 </div>
 
 | Dataset       | Num. of Images | Resolution          | Data Collection Platform           | Category               | Scenario                 | Material             | Experiments                                  |
@@ -70,26 +56,41 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 | **CUBIT**     | **5527**       | **4624x3472 and 8000x6000** | **Cameras in Unmanned Systems**  | **Crack, Spallinig, Moisture** | **Building (65%), Pavement (29%), Bridge (6%)** | **Concrete, Asphalt, Stone** | **Faster R-CNN, PP-YOLO, PP-YOLOv2, YOLOX, YOLOv5, YOLOv7, YOLOv6, YOLOv6+GIPFPP(ours), Real-site experiment** |
 
 
+* The sample images in CUBIT has been shown below. All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scnarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
+<p align="center">
+  <img src="./sample.png" style="width: 80%;"> 
+</p>
 
 
-<div style="text-align: center; font-weight: 400; "> 
+<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
+<h3>Defect Detection Framework based on CUBIT</h3>
+</div>
+
+* The visualization of defect detection framework based on CUBIT dataset is illustrated below *, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
+<p align="center">
+  <img src="./frame.png" style="width: 80%;"> 
+</p>
+
+
+
+<div style="text-align: center; font-weight: 400; font-family: 'American Typewriter' "> 
 <h3>Prediction results on the test set of the proposed CUBIT defect dataset are shown below
 </h3>
 </div>
 
 
 
-We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: **Crack, Spalling, and Moisture**. Rectangles indicate the output prediction box <font color="red">Red</font> for Crack, <font color="pink">Pink</font> for Spalling, and <font color="orange">Orange</font> for Moisture with inferred defect type and confidence score from YOLOv6-n+GIPFPP trained on the training set of our proposed dataset.
+* We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: **Crack, Spalling, and Moisture**. Rectangles indicate the output prediction box <font color="red">Red</font> for Crack, <font color="pink">Pink</font> for Spalling, and <font color="orange">Orange</font> for Moisture with inferred defect type and confidence score from YOLOv6-n+GIPFPP trained on the training set of our proposed dataset.
 <p align="center">
   <img src="./index_show.png" style="width: 80%;">
 </p>
 
 <div style="text-align: center; font-weight: 400; font-family: 'American Typewriter' "> 
 <h3>
-Qualitative visualization of UAV-based real-world experiment is shown below
+Multi-UAV-Based Real-world Infrastructure Defects Inspection
 </h3>
 </div>
-On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
+Qualitative visualization of UAV-based real-world experiment is shown below.On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
 <p align="center">
   <img src="./goodman_zigzag.png" style="width: 80%;">
 </p>
