@@ -53,8 +53,10 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 <p align="center">
   <img src="./frame.png" style="width: 80%;"> 
 </p>
-
-## The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
+<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
+<h3> The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
+</h3>
+</div>
 
 | Dataset       | Num. of Images | Resolution          | Data Collection Platform           | Category               | Scenario                 | Material             | Experiments                                  |
 |---------------|----------------|----------------------|------------------------------------|------------------------|--------------------------|----------------------|-----------------------------------------------|
