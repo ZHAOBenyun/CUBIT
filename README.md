@@ -11,7 +11,7 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2</sup>, Guidong Yang<sup>1</sup>, Jun
 1.Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong  <br />       2.School of Electronics and Information Engineering,Tongji University
 
 </div>
-<div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center"> 
+<div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center" > 
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
 <a href="https://www.overleaf.com/" style="color: white; text-decoration: none;">Paper</a>
@@ -44,7 +44,7 @@ Image Resolution | Year | Structure Type | Number of Images | Defect Type | Anno
 4624x3472, 8000x6000 | 2023 | Building, Pavement, Bridge | 5527 | Crack, Spalling, Moisture | Bounding-box Level
 
 <p align="center">
-  <img src="./sample.png"> 
+  <img src="./sample.png" width=60% height=60%> 
 </p>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
