@@ -20,10 +20,6 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2</sup>, Guidong Yang<sup>1</sup>, Jun
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="#" style="color: white; text-decoration: none;">Dataset (coming soon)</a>
-</button>
-
-<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
 <a href="#" style="color: white; text-decoration: none;">Supplementary</a>
 </button>
 </div>
