@@ -44,24 +44,6 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
   <img src="./sample.png" style="width: 80%;"> 
 </p>
 
-<h3> The Evaluation Results of SOTA models on CUBIT
-</h3>
-
-| Model                       | #Params.(M) | FLOPs(G) | Size | mAP$_{50}^{test}$ / mAP$_{50:95}^{test}$ | Latency(ms) |
-|-----------------------------|-------------|----------|------|-----------------------------------------|--------------|
-| Faster R-CNN(Res50)         | 42.62       | 477.24   | 1024 | 71.5% / 43.3%                           | 76.9         |
-| PP-YOLO                     | 48.99       | 136.43   | 1024 | 76.4% / 45.1%                           | 14.5         |
-| PP-YOLOv2                   | 56.91       | 146.50   | 1024 | 77.3% / 47.1%                           | 13.8         |
-| YOLOv5-n                    | 1.76        | 4.10     | 1024 | 73.4% / 39.9%                           | 1.8          |
-| YOLOv5-s                    | 7.18        | 15.80    | 1024 | 78.5% / 47.2%                           | 3.3          |
-| YOLOv7-t                    | 6.01        | 13.01    | 1024 | 71.1% / 39.7%                           | 1.9          |
-| YOLOX-n                     | 2.24        | 17.75    | 1024 | 73.0% / 39.5%                           | 4.4          |
-| YOLOX-t                     | 5.03        | 39.00    | 1024 | 75.3% / 49.2%                           | 5.8          |
-| YOLOX-s                     | 8.94        | 68.51    | 1024 | 77.9% / 49.4%                           | 7.6          |
-| YOLOv6-n(baseline)          | 4.63        | 29.03    | 1024 | 76.3% / 47.9%                           | 2.2          |
-| YOLOv6-s                    | 18.50       | 115.64   | 1024 | 79.0% / 48.2%                           | 5.3          |
-| **YOLOv6-n+GIFPFF(ours)**   | **4.14 (-0.49)** | **28.02 (-1.01)** | 1024 | **77.5% (+1.2) / 50.3% (+3.1)**       | **2.2**      |
-
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h3>Defect Detection Framework based on CUBIT</h3>
@@ -92,11 +74,6 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 <h3>Prediction results on the test set of the proposed CUBIT defect dataset are shown below
 </h3>
 </div>
-
-<h3> Experimental Results
-</h3>
-The evaluation results of SOTA real-time detection methods and YOLOv6-n with our GIPFPP module are benchmarked in the table below. After switching from the original module to GIPFPP module, the AP of YOLOv6-n is improved by 3%, while its number of parameters is reduced by 10%. The enhancements made to the model will facilitate the real-time defect detection using unmanned systems.
-
 
 
 
