@@ -132,7 +132,7 @@
   bounding-box level defect detection dataset.
 </div>
 <p align="center">
-  <img src="./sample.png" />
+  <img src="./sample.png" style="width: 80%" />
 </p>
 
 <div
@@ -150,7 +150,7 @@ illustrated below *, which encompasses the entire process: data collection by
 autonomous unmanned system; the baseline network integrated with our GIPFPP
 module; the output of defect detection results.
 <p align="center">
-  <img src="./frame.png" />
+  <img src="./frame.png" style="width: 80%" />
 </p>
 
 ## The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
@@ -214,12 +214,12 @@ Spalling, and <font color="orange">Orange</font> for Moisture with inferred
 defect type and confidence score from YOLOv6-l trained on the training set of
 our proposed dataset.
 <p align="center">
-  <img src="./index_show.png" />
+  <img src="./index_show.png" style="width: 80%" />
 </p>
 
 <strong> Qualitative visualization of UAV-based real-world experiment is shown below</strong>
 On the left, our multi-UAVs inspection schematics is illustrated. On the right, the
 detection results of four direction façades of the building are displayed.
 <p align="center">
-  <img src="./goodman_zigzag.png" />
+  <img src="./goodman_zigzag.png" style="width: 80%" />
 </p>
