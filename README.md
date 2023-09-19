@@ -37,7 +37,12 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h3>Sample images in CUBIT</h3>
 </div>
-* The sample images in CUBIT has been shown below.* All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scnarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
+* The sample images in CUBIT has been shown below.* All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scenarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
+
+Image Resolution | Year | Structure Type | Number of Images | Defect Type | Annotation Level
+--- | --- | --- | --- | --- | --- |
+4624x3472, 8000x6000 | 2023 | Building, Pavement, Bridge | 5527 | Crack, Spalling, Moisture | Bounding-box Level
+
 <p align="center">
   <img src="./sample.png"> 
 </p>
