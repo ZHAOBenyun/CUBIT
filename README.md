@@ -15,15 +15,15 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2</sup>, Guidong Yang<sup>1</sup>, Jun
 <br>
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center" > 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
-<a href="#" style="color: white; text-decoration: none;">Paper (coming soon)  </a>
+<a href="#" style="color: white; text-decoration: none;">Paper (coming soon);</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
-<a href="https://zhaobenyun.github.io/CUBIT/ICASSP_2024_Appendix.pdf" style="color: white; text-decoration: none;">Supplementary  </a>
+<a href="https://zhaobenyun.github.io/CUBIT/ICASSP_2024_Appendix.pdf" style="color: white; text-decoration: none;">Supplementary;</a>
 </button>
 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
-<a href="https://zhaobenyun.github.io/CUBIT/" style="color: white; text-decoration: none;">Project Page  </a>
+<a href="https://zhaobenyun.github.io/CUBIT/" style="color: white; text-decoration: none;">Project Page;</a>
 </button>
 </div>
 
