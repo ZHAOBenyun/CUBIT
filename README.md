@@ -83,7 +83,7 @@ The evaluation results of SOTA real-time detection methods and YOLOv6-n with our
 
 ## The Evaluation Results of SOTA models on CUBIT
 
-| Model                       | #Params.(M) | FLOPs(G) | Size | mAP$_{50}^{test}$ / mAP$_{50:95}^{test}$ | Latency(ms) |
+| Model                       | #Params.(M) | FLOPs(G) | Size | mAP,50 / mAP,50:95 | Latency(ms) |
 |-----------------------------|-------------|----------|------|-----------------------------------------|--------------|
 | Faster R-CNN(Res50)         | 42.62       | 477.24   | 1024 | 71.5% / 43.3%                           | 76.9         |
 | PP-YOLO                     | 48.99       | 136.43   | 1024 | 76.4% / 45.1%                           | 14.5         |
