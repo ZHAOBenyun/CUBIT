@@ -84,7 +84,7 @@ We enlarge the prediction results in the bottom right corner of framework images
   <img src="./index_show.png" style="width: 80%;">
 </p>
 
-<div style="text-align: center; font-weight: 400; "> 
+<div style="text-align: center; font-weight: 400; font-family: 'American Typewriter' "> 
 <h3>
 Qualitative visualization of UAV-based real-world experiment is shown below
 </h3>
