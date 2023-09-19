@@ -41,7 +41,7 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 </div>
 * The sample images in CUBIT has been shown below.* All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scnarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
 <p align="center">
-  <img src="./sample.png"> 
+  <img src="./sample.png" style="width: 80%;"> 
 </p>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
@@ -50,7 +50,7 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 
 * The visualization of defect detection framework based on CUBIT dataset is illustrated below *, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
 <p align="center">
-  <img src="./frame.png"> 
+  <img src="./frame.png" style="width: 80%;"> 
 </p>
 
 ## The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
@@ -74,10 +74,12 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 </h3>
 </div>
 
-## Experimental Results
+<h3> Experimental Results
+</h3>
 The evaluation results of SOTA real-time detection methods and YOLOv6-n with our GIPFPP module are benchmarked in the table below. After switching from the original module to GIPFPP module, the AP of YOLOv6-n is improved by 3%, while its number of parameters is reduced by 10%. The enhancements made to the model will facilitate the real-time defect detection using unmanned systems.
 
-## The Evaluation Results of SOTA models on CUBIT
+<h3> The Evaluation Results of SOTA models on CUBIT
+</h3>
 
 | Model                       | #Params.(M) | FLOPs(G) | Size | mAP$_{50}^{test}$ / mAP$_{50:95}^{test}$ | Latency(ms) |
 |-----------------------------|-------------|----------|------|-----------------------------------------|--------------|
@@ -98,12 +100,12 @@ The evaluation results of SOTA real-time detection methods and YOLOv6-n with our
 
 We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: **Crack, Spalling, and Moisture**. Rectangles indicate the output prediction box <font color="red">Red</font> for Crack, <font color="pink">Pink</font> for Spalling, and <font color="orange">Orange</font> for Moisture with inferred defect type and confidence score from YOLOv6-l trained on the training set of our proposed dataset.
 <p align="center">
-  <img src="./index_show.png">
+  <img src="./index_show.png" style="width: 80%;">
 </p>
 
 *Qualitative visualization of UAV-based real-world experiment is shown below* On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
 <p align="center">
-  <img src="./goodman_zigzag.png">
+  <img src="./goodman_zigzag.png" style="width: 80%;">
 </p>
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Acknowledgement</h2>
