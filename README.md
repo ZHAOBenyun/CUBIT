@@ -211,6 +211,7 @@ Model | #Params.(M) | FLOPs(G) | Size | mAP$_{50}^{test}$ / mAP$_{50:95}^{test}$
 / 48.2% | 5.3 | | **YOLOv6-n+GIFPFF(ours)** | **4.14 (-0.49)** | **28.02
 (-1.01)** | 1024 | **77.5% (+1.2) / 50.3% (+3.1)** | **2.2** |
 
+
 We enlarge the
 prediction results in the bottom right corner of framework images above. CUBIT
 dataset covers three infrastructure types: **Building facade, Pavement**, and
