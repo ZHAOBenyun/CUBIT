@@ -1,6 +1,6 @@
 
 <h1 style="text-align: center; font-size: 36px; font-family: 'Sama Devanagari'">
-  CUBIT: A High-resolution Infrastructure Defect Dataset <br> Fully Evaluated with
+  CUBIT: A High-resolution Infrastructure Defect Dataset Evaluated with
   Autonomous Detection Framework
 </h1>
 <h2>
@@ -135,26 +135,6 @@
   <img src="./sample.png" style="width: 80%" />
 </p>
 
-#### The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
-| Dataset | Num. of Images | Resolution | Data Collection Platform | Category |
-Scenario | Material | Experiments |
-|---------------|----------------|----------------------|------------------------------------|------------------------|--------------------------|----------------------|-----------------------------------------------|
-| RDD-2018 | 9053 | 600x600 | Smartphones | Crack, Corrosion | Pavement |
-Asphalt | SSD | | RDD-2019 | 13135 | 600x600 | Smartphones | Crack, Corrosion |
-Pavement | Asphalt | SSD | | RDD-2020 | 26336 | 600x600, 720x720 | Smartphones |
-Crack, Pothole | Pavement | Asphalt | SSD | | RDD-2022 | 47420 | 512x512,
-600x600, 720x720, 3650x2044 | Smartphones, Hand-held cameras, UAV cameras,
-Google street view | Crack, Pothole | Pavement | Asphalt | - | | PID | 7237 |
-640x640 | Crawled from Internet | Crack | Pavement | Asphalt | YOLOv2, Fast
-R-CNN | | Murad | 2620 | up to 838x809 | Smartphones | Crack | Pavement |
-Asphalt | Faster R-CNN | | CODEBRIM | 1590 | up to 6000x4000 | Hand-held
-cameras, UAV Cameras | Crack, Corrosion | Bridge | Concrete | MetaQNN, ENAS | |
-**CUBIT** | **5527** | **4624x3472 and 8000x6000** | **Cameras in Unmanned
-Systems** | **Crack, Spallinig, Moisture** | **Building (65%), Pavement (29%),
-Bridge (6%)** | **Concrete, Asphalt, Stone** | **Faster R-CNN, PP-YOLO,
-PP-YOLOv2, YOLOX, YOLOv5, YOLOv7, YOLOv6, YOLOv6+GIPFPP(ours), Real-site
-experiment** |
-
 <div
   style="
     text-align: center;
@@ -173,7 +153,25 @@ module; the output of defect detection results.
   <img src="./frame.png" style="width: 80%" />
 </p>
 
-
+## The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
+| Dataset | Num. of Images | Resolution | Data Collection Platform | Category |
+Scenario | Material | Experiments |
+|---------------|----------------|----------------------|------------------------------------|------------------------|--------------------------|----------------------|-----------------------------------------------|
+| RDD-2018 | 9053 | 600x600 | Smartphones | Crack, Corrosion | Pavement |
+Asphalt | SSD | | RDD-2019 | 13135 | 600x600 | Smartphones | Crack, Corrosion |
+Pavement | Asphalt | SSD | | RDD-2020 | 26336 | 600x600, 720x720 | Smartphones |
+Crack, Pothole | Pavement | Asphalt | SSD | | RDD-2022 | 47420 | 512x512,
+600x600, 720x720, 3650x2044 | Smartphones, Hand-held cameras, UAV cameras,
+Google street view | Crack, Pothole | Pavement | Asphalt | - | | PID | 7237 |
+640x640 | Crawled from Internet | Crack | Pavement | Asphalt | YOLOv2, Fast
+R-CNN | | Murad | 2620 | up to 838x809 | Smartphones | Crack | Pavement |
+Asphalt | Faster R-CNN | | CODEBRIM | 1590 | up to 6000x4000 | Hand-held
+cameras, UAV Cameras | Crack, Corrosion | Bridge | Concrete | MetaQNN, ENAS | |
+**CUBIT** | **5527** | **4624x3472 and 8000x6000** | **Cameras in Unmanned
+Systems** | **Crack, Spallinig, Moisture** | **Building (65%), Pavement (29%),
+Bridge (6%)** | **Concrete, Asphalt, Stone** | **Faster R-CNN, PP-YOLO,
+PP-YOLOv2, YOLOX, YOLOv5, YOLOv7, YOLOv6, YOLOv6+GIPFPP(ours), Real-site
+experiment** |
 
 <div
   style="
