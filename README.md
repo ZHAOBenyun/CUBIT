@@ -50,11 +50,20 @@ Image Resolution | Year | Structure Type | Number of Images | Defect Type | Anno
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h3>Defect Detection Framework based on CUBIT</h3>
 </div>
-
 The visualization of defect detection framework based on CUBIT dataset is illustrated below, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
 <p align="center">
   <img src="./frame.png" width=80% height=80%> 
 </p>
+
+
+<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
+<h3>Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below
+</h3>
+We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: Building facade, Pavement, and Bridge, and aims for three types of defect: Crack, Spalling, and Moisture. Rectangles indicate the output prediction box Red for Crack, Pink for Spalling, and Orange for Moisture with inferred defect type and confidence score from YOLOv6-n+GIPFPP module trained on the training set of our proposed dataset.
+<p align="center">
+  <img src="./index_show.png">
+</p>
+</div>
 
 ## The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
 
@@ -68,14 +77,6 @@ The visualization of defect detection framework based on CUBIT dataset is illust
 | Murad         | 2620           | up to 838x809        | Smartphones                        | Crack                  | Pavement                 | Asphalt              | Faster R-CNN                                  |
 | CODEBRIM      | 1590           | up to 6000x4000      | Hand-held cameras, UAV Cameras     | Crack, Corrosion       | Bridge                   | Concrete             | MetaQNN, ENAS                                 |
 | **CUBIT**     | **5527**       | **4624x3472 and 8000x6000** | **Cameras in Unmanned Systems**  | **Crack, Spallinig, Moisture** | **Building (65%), Pavement (29%), Bridge (6%)** | **Concrete, Asphalt, Stone** | **Faster R-CNN, PP-YOLO, PP-YOLOv2, YOLOX, YOLOv5, YOLOv7, YOLOv6, YOLOv6+GIPFPP(ours), Real-site experiment** |
-
-
-
-
-<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-<h3>Prediction results on the test set of the proposed CUBIT-RGB-v1 defect dataset are shown below
-</h3>
-</div>
 
 ## Experimental Results
 The evaluation results of SOTA real-time detection methods and YOLOv6-n with our GIPFPP module are benchmarked in the table below. After switching from the original module to GIPFPP module, the AP of YOLOv6-n is improved by 3%, while its number of parameters is reduced by 10%. The enhancements made to the model will facilitate the real-time defect detection using unmanned systems.
@@ -99,12 +100,7 @@ The evaluation results of SOTA real-time detection methods and YOLOv6-n with our
 
 
 
-We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: **Building facade, Pavement**, and **Bridge**, and aims for three types of defect: **Crack, Spalling, and Moisture**. Rectangles indicate the output prediction box (\textcolor{red}{Red} for \textbf{Crack}, \textcolor{pink}{Pink} for \textbf{Spalling}, and \textcolor{orange}{Orange} for \textbf{Moisture}) with inferred defect type and confidence score from YOLOv6-l trained on the training set of our proposed dataset.
-<p align="center">
-  <img src="./index_show.png">
-</p>
-
-*Qualitative visualization of UAV-based real-world experiment is shown below* On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
+Qualitative visualization of UAV-based real-world experiment is shown below. On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
 <p align="center">
   <img src="./goodman_zigzag.png">
 </p>
