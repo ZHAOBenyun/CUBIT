@@ -107,7 +107,7 @@ Multi-UAV-Based Real-world Infrastructure Defects Inspection
 </div>
 <div style="text-align: justify; text-justify:inter-ideograph;">
 
-* Qualitative visualization of UAV-based real-world experiment is shown below.On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
+* Qualitative visualization of UAV-based real-world experiment is shown below. On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
 
 </div>
 
