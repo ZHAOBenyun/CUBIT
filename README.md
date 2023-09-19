@@ -65,8 +65,10 @@ We enlarge the prediction results in the bottom right corner of framework images
 </p>
 </div>
 
-
-Qualitative visualization of multi-UAV-based real-world infrastructure defects inspection eperiment is shown below. On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
+<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
+<h3>Multi-UAV-based Real-world Infrastructure Defects Inspection</h3>
+</div>
+Qualitative visualization of multi-UAV-based real-world experiment is shown below. On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
 <p align="center">
   <img src="./goodman_zigzag.png" width=80% height=80%>
 </p>
