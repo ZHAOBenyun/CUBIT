@@ -47,7 +47,7 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 </div>
 
 <p align="center">
-  <img src="./sample.png" style="width: 70%;"> 
+  <img src="./sample.png" style="width: 80%;"> 
 </p>
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
@@ -80,7 +80,7 @@ The visualization of defect detection framework based on CUBIT dataset is illust
 </div>
 
 <p align="center">
-  <img src="./frame.png" style="width: 70%;"> 
+  <img src="./frame.png" style="width: 80%;"> 
 </p>
 
 
@@ -91,7 +91,7 @@ The visualization of defect detection framework based on CUBIT dataset is illust
 </div>
 
 <div style="text-align: justify; text-justify:inter-ideograph;">
-We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: <strong> Building, Pavement</strong>, and <strong>Bridge</strong>, and aims for three types of defect: <strong>Crack, Spalling, and Moisture</strong>. Rectangles indicate the output prediction box <font color="red">Red</font> for Crack, <font color="pink">Pink</font> for Spalling, and <font color="orange">Orange</font> for Moisture with inferred defect type and confidence score from YOLOv6-n+GIPFPP trained on the training set of our proposed dataset.
+We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: <strong> Building, Pavement</strong>, and <strong>Bridge</strong>, and aims for three types of defect: <strong>Crack, Spalling</strong>, and <strong>Moisture</strong>. Rectangles indicate the output prediction box <font color="red">Red</font> for Crack, <font color="pink">Pink</font> for Spalling, and <font color="orange">Orange</font> for Moisture with inferred defect type and confidence score from YOLOv6-n+GIPFPP trained on the training set of our proposed dataset.
 
 </div>
 
@@ -110,11 +110,11 @@ Qualitative visualization of UAV-based real-world experiment is shown below. On 
 </div>
 
 <p align="center">
-  <img src="./goodman_zigzag.png" style="width: 70%;">
+  <img src="./goodman_zigzag.png" style="width: 80%;">
 </p>
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Acknowledgement</h2>
 </div>
-This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics.
+This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics. Credits also to <a href="http://www.yjhuang.net"> Yijun Huang </a> for constructing the project page.
 
 
