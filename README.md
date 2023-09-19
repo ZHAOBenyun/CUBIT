@@ -42,8 +42,8 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 
 <div style="text-align: justify; text-justify:inter-ideograph;">
 
-<ul> The sample images in CUBIT has been shown below. All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scnarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
-</ul>
+ The sample images in CUBIT has been shown below. All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scnarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
+
 </div>
 
 <p align="center">
@@ -74,9 +74,9 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 <h3>Defect Detection Framework based on CUBIT</h3>
 </div>
 <div style="text-align: justify; text-justify:inter-ideograph;">
-<ul>
+
 The visualization of defect detection framework based on CUBIT dataset is illustrated below, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
-</ul>
+
 </div>
 
 <p align="center">
@@ -91,9 +91,8 @@ The visualization of defect detection framework based on CUBIT dataset is illust
 </div>
 
 <div style="text-align: justify; text-justify:inter-ideograph;">
-<ul>
 We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: <strong> Building, Pavement</strong>, and <strong>Bridge</strong>, and aims for three types of defect: <strong>Crack, Spalling, and Moisture</strong>. Rectangles indicate the output prediction box <font color="red">Red</font> for Crack, <font color="pink">Pink</font> for Spalling, and <font color="orange">Orange</font> for Moisture with inferred defect type and confidence score from YOLOv6-n+GIPFPP trained on the training set of our proposed dataset.
-</ul>
+
 </div>
 
 <p align="center">
@@ -106,9 +105,8 @@ Multi-UAV-Based Real-world Infrastructure Defects Inspection
 </h3>
 </div>
 <div style="text-align: justify; text-justify:inter-ideograph;">
-<ul>
 Qualitative visualization of UAV-based real-world experiment is shown below. On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
-</ul>
+
 </div>
 
 <p align="center">
