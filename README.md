@@ -52,7 +52,7 @@ Image Resolution | Year | Structure Type | Number of Images | Defect Type | Anno
 </div>
 The visualization of defect detection framework based on CUBIT dataset is illustrated below, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
 <p align="center">
-  <img src="./frame.png" width=70% height=70%> 
+  <img src="./frame.png" width=80% height=80%> 
 </p>
 
 
@@ -61,7 +61,7 @@ The visualization of defect detection framework based on CUBIT dataset is illust
 </h3>
 We enlarge the prediction results in the bottom right corner of framework images above. CUBIT dataset covers three infrastructure types: Building facade, Pavement, and Bridge, and aims for three types of defect: Crack, Spalling, and Moisture. Rectangles indicate the output prediction box Red for Crack, Pink for Spalling, and Orange for Moisture with inferred defect type and confidence score from YOLOv6-n+GIPFPP modle trained on the training set of our proposed dataset.
 <p align="center">
-  <img src="./index_show.png" width=80% height=80%>
+  <img src="./index_show.png" width=70% height=70%>
 </p>
 </div>
 
