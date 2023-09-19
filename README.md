@@ -8,13 +8,12 @@
 <div style=" text-align: center; font-size: 17px;">
 Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2</sup>, Guidong Yang<sup>1</sup>, Junjie Wen<sup>1</sup>, Jihan Zhang<sup>1</sup>,  Xi Chen<sup>1</sup>, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup>, IEEE Fellow
 </div>
-<br>
 <div  style="text-align: center; font-size: 17px;" >
 1.Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong  <br />       2.School of Electronics and Information Engineering,Tongji University
-
 </div>
-<div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center" > 
 
+<br>
+<div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center" > 
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
 <a href="#" style="color: white; text-decoration: none;">Paper (coming soon)</a>
 </button>
