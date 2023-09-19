@@ -1,6 +1,6 @@
 
 <h1 style="text-align: center; font-size: 36px; font-family: 'Sama Devanagari'">
-  CUBIT: A High-resolution Infrastructure Defect Dataset Evaluated with
+  CUBIT: A High-resolution Infrastructure Defect Dataset <br> Fully Evaluated with
   Autonomous Detection Framework
 </h1>
 <h2>
@@ -135,25 +135,7 @@
   <img src="./sample.png" style="width: 80%" />
 </p>
 
-<div
-  style="
-    text-align: center;
-    font-family: 'American Typewriter';
-    font-weight: 400;
-  "
->
-  <h3>Defect Detection Framework based on CUBIT</h3>
-</div>
-
-* The visualization of defect detection framework based on CUBIT dataset is
-illustrated below *, which encompasses the entire process: data collection by
-autonomous unmanned system; the baseline network integrated with our GIPFPP
-module; the output of defect detection results.
-<p align="center">
-  <img src="./frame.png" style="width: 80%" />
-</p>
-
-## The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
+#### The Comparison between Existing Bounding-box-level Defect Dataset with CUBIT
 | Dataset | Num. of Images | Resolution | Data Collection Platform | Category |
 Scenario | Material | Experiments |
 |---------------|----------------|----------------------|------------------------------------|------------------------|--------------------------|----------------------|-----------------------------------------------|
@@ -172,6 +154,26 @@ Systems** | **Crack, Spallinig, Moisture** | **Building (65%), Pavement (29%),
 Bridge (6%)** | **Concrete, Asphalt, Stone** | **Faster R-CNN, PP-YOLO,
 PP-YOLOv2, YOLOX, YOLOv5, YOLOv7, YOLOv6, YOLOv6+GIPFPP(ours), Real-site
 experiment** |
+
+<div
+  style="
+    text-align: center;
+    font-family: 'American Typewriter';
+    font-weight: 400;
+  "
+>
+  <h3>Defect Detection Framework based on CUBIT</h3>
+</div>
+
+* The visualization of defect detection framework based on CUBIT dataset is
+illustrated below *, which encompasses the entire process: data collection by
+autonomous unmanned system; the baseline network integrated with our GIPFPP
+module; the output of defect detection results.
+<p align="center">
+  <img src="./frame.png" style="width: 80%" />
+</p>
+
+
 
 <div
   style="
@@ -213,6 +215,7 @@ Moisture**. Rectangles indicate the output prediction box
 Spalling, and <font color="orange">Orange</font> for Moisture with inferred
 defect type and confidence score from YOLOv6-l trained on the training set of
 our proposed dataset.
+
 <p align="center">
   <img src="./index_show.png" style="width: 80%" />
 </p>
