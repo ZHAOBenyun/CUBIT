@@ -40,7 +40,10 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h3>Sample images in CUBIT</h3>
 </div>
+<div style="text-align: justify; text-justify:inter-ideograph;">
+
 * The sample images in CUBIT has been shown below.* All the data are collected by autonomous unmanned systems such as UAV and UGV. Our dataset includes various scnarios and defect categories compared with the existing open-source bounding-box level defect detection dataset. 
+</div>
 <p align="center">
   <img src="./sample.png"> 
 </p>
@@ -76,6 +79,7 @@ Learning-based visual inspection, integrated with unmanned robotic system, offer
 </div>
 
 ## Experimental Results
+
 The evaluation results of SOTA real-time detection methods and YOLOv6-n with our GIPFPP module are benchmarked in the table below. After switching from the original module to GIPFPP module, the AP of YOLOv6-n is improved by 3%, while its number of parameters is reduced by 10%. The enhancements made to the model will facilitate the real-time defect detection using unmanned systems.
 
 ## The Evaluation Results of SOTA models on CUBIT
