@@ -27,6 +27,7 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2</sup>, Guidong Yang<sup>1</sup>, Jun
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
 <a href="https://zhaobenyun.github.io/CUBIT/" style="color: white; text-decoration: none;">Project Page</a>
 </button>
+</div>
 
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
@@ -64,16 +65,6 @@ We enlarge the prediction results in the bottom right corner of framework images
 <p align="center">
   <img src="./index_show.png" width=70% height=70%>
 </p>
-
-
-<div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-<h2>Multi-UAV-based Real-world Infrastructure Defects Inspection</h2>
-</div>
-Qualitative visualization of multi-UAV-based real-world experiment is shown below. On the left, our multi-UAVs inspection schematics is illustrated. On the right, the detection results of four direction façades of the building are displayed.
-<p align="center">
-  <img src="./goodman_zigzag.png" width=80% height=80%>
-</p>
-
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Acknowledgement</h2>
