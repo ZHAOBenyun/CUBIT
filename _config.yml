@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: slate;
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
