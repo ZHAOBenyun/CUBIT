@@ -1,4 +1,4 @@
-<h1 style="text-align: center; font-size: 36px; font-family: 'Baskerville';"> CUBIT: A High-resolution Infrastructure Defect Dataset <br> Fully Evaluated with Autonomous Detection Framework
+<h1 style="text-align: center; font-size: 36px; font-family: 'Roboto';"> CUBIT: A High-resolution Infrastructure Defect Dataset <br> Fully Evaluated with Autonomous Detection Framework
     <div style="text-align: center; font-size: 20px; font-family: 'Georgia';">   
 Submitted to International Conference on Acoustics, Speech, & Signal Processing 2024 (ICASSP 2024)
 </div>
