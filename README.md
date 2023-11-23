@@ -25,6 +25,10 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2</sup>, Guidong Yang<sup>1</sup>, Jun
 <button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
 <a href="./ICASSP_2024_Appendix.pdf" style="color: white; text-decoration: none;">Supplementary </a>
 </button>
+
+<button style="background-color: #000000; color: white;margin-right: 15px; padding: 10px 15px; border: none; border-radius: 5px;">
+<a href="./ICASSP_2024_Appendix.pdf" style="color: white; text-decoration: none;">Rebuttal </a>
+</button>
 </div>
 
 
