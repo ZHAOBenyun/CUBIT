@@ -11,7 +11,7 @@ Automation in Construction 2024
 
 
 <div style=" text-align: center; font-size: 21px;">
-Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, Junjie Wen<sup>1</sup>, Jihan Zhang<sup>1</sup>, Jia Dou<sup>1</sup>, Li Guang<sup>1</sup>, Xi Chen<sup>1</sup>, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup> IEEE Fellow
+Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, Junjie Wen<sup>1</sup>, Jihan Zhang<sup>1</sup>, Jia Dou<sup>1</sup>, Li Guang<sup>1</sup>, Xi Chen<sup>1</sup>, and <br> <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup> IEEE Fellow
 </div>
 <div  style="text-align: center; font-size: 18px;" >
 1.Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong <br>   
