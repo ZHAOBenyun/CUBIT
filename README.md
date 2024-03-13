@@ -11,11 +11,13 @@ Automation in Construction 2024
 
 
 <div style=" text-align: center; font-size: 21px;">
-Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, Junjie Wen<sup>1</sup>, Jihan Zhang<sup>1</sup>, Jia Dou<sup>1</sup>, Li Guang<sup>1</sup>, <br> Xi Chen<sup>1</sup>, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup> IEEE Fellow
+Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, Junjie Wen<sup>1</sup>, Jihan Zhang<sup>1</sup>, Jia Dou<sup>1</sup>, Li Guang<sup>1</sup>, Xi Chen<sup>1</sup>, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup> IEEE Fellow
 </div>
 <div  style="text-align: center; font-size: 18px;" >
-1.Department of Mechanical and Automation Engineering, <br>The Chinese University of Hong Kong  <br />       2.School of Electronics and Information Engineering,Tongji University
+1.Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong <br>   
+2.School of Electronics and Information Engineering,Tongji University
 </div>
+
 
 <br>
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center" > 
@@ -32,7 +34,7 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, J
 <a href="https://zhaobenyun.github.io/CUBIT/" style="color: white; text-decoration: none;">Project Page;</a>
 </button> -->
 
-
+<br>
 <button style="background-color: #000000; color: white; margin: 0 auto; padding: 10px 15px;border: none; border-radius: 5px;">
 Dataset can be available at: <br><a href="https://drive.google.com/drive/folders/1LWwEKQ8rSB97fCRD4sG7b6UcK40rSdA2?usp=drive_link" style="color: white; text-decoration: none;">https://drive.google.com/drive/folders/1LWwEKQ8rSB97fCRD4sG7b6UcK40rSdA2?usp=drive_link</a>
 </button>
