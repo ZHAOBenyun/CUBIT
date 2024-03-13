@@ -1,19 +1,19 @@
-<h1 style="text-align: center; font-size: 32px; font-family: 'Sama Devanagari';"> CUBIT Dataset
+<h1 style="text-align: center; font-size: 35px; font-family: 'Sama Devanagari';"> CUBIT Dataset
 </h1>
 
-<h3 style="text-align: center; font-size: 25px; font-family: 'Sama Devanagari';"> 
+<h3 style="text-align: center; font-size: 28px; font-family: 'Sama Devanagari';"> 
 High-Resolution Infrastructure Defect Detection Dataset Sourced by Unmanned Systems and Validated with Deep Learning
 </h3>
 
-<h3 style="text-align: center; font-size: 20px; font-family: 'Sama Devanagari';"> 
+<h3 style="text-align: center; font-size: 21px; font-family: 'Sama Devanagari';"> 
 Automation in Construction 2024
 </h3>
 
 
-<div style=" text-align: center; font-size: 15px;">
+<div style=" text-align: center; font-size: 21px;">
 Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, Junjie Wen<sup>1</sup>, Jihan Zhang<sup>1</sup>, Jia Dou<sup>1</sup>, Li Guang<sup>1</sup>, <br> Xi Chen<sup>1</sup>, and <a href="http://www.mae.cuhk.edu.hk/~bmchen/">Ben M. Chen</a><sup>1</sup> IEEE Fellow
 </div>
-<div  style="text-align: center; font-size: 12px;" >
+<div  style="text-align: center; font-size: 18px;" >
 1.Department of Mechanical and Automation Engineering, <br>The Chinese University of Hong Kong  <br />       2.School of Electronics and Information Engineering,Tongji University
 </div>
 
