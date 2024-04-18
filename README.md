@@ -22,7 +22,7 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, J
 <br>
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center" > 
 <button style="background-color: #000000; color: white;margin-centre: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
-<a href="#" style="color: white; text-decoration: none;">Paper (coming soon)</a>
+<a href="https://authors.elsevier.com/a/1ixzx3IhXM-IYB" style="color: white; text-decoration: none;">Paper from Automation in Construction</a>
 </button>
 </div>
 
