@@ -72,3 +72,21 @@ The visualization of defect detection framework based on CUBIT dataset is illust
 This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics. Credits also to <a href="http://www.yjhuang.net/" style="color: white; text-decoration: none;">Yijun Huang</a> for constructing the project page.
 
 
+## Citation
+If you find this project helpful for your research, please consider citing the report and giving a ⭐.
+
+Any questions or academic discussion, please contact me at: byzhao@mae.cuhk.edu.hk
+
+```BibTex
+@article{ZHAO2024105405,
+title = {High-resolution infrastructure defect detection dataset sourced by unmanned systems and validated with deep learning},
+journal = {Automation in Construction},
+volume = {163},
+pages = {105405},
+year = {2024},
+issn = {0926-5805},
+doi = {https://doi.org/10.1016/j.autcon.2024.105405},
+author = {Benyun Zhao and Xunkuai Zhou and Guidong Yang and Junjie Wen and Jihan Zhang and Jia Dou and Guang Li and Xi Chen and Ben M. Chen},
+}
+```
+
