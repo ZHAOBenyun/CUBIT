@@ -69,11 +69,12 @@ The visualization of defect detection framework based on CUBIT dataset is illust
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Acknowledgement</h2>
 </div>
-This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics. Credits also to <a href="http://www.yjhuang.net/" style="color: white; text-decoration: none;">Yijun Huang</a> for constructing the project page.
+This work was supported by the InnoHK of the Government of the Hong Kong Special Administrative Region via the Hong Kong Centre for Logistics Robotics. 
+Credits also to <a href="http://www.yjhuang.net/" style="color: white; text-decoration: none;">Yijun Huang</a> for constructing the project page.
 
 
 ## Citation
-If you find this project helpful for your research, please consider citing the report and giving a ⭐.
+If you find this project helpful for your research, please consider citing our paper and giving a ⭐.
 
 Any questions or academic discussion, please contact me at: byzhao@mae.cuhk.edu.hk
 
