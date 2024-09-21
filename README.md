@@ -26,10 +26,6 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, J
 </button>
 </div>
 
-<!-- <br>
-<button style="background-color: #000000; color: white; margin: 0 auto; padding: 10px 15px;border: none; border-radius: 5px;">
-Dataset can be available at: <br><a href="https://mycuhk-my.sharepoint.com/:f:/g/personal/1155145791_link_cuhk_edu_hk/EvIGO4s7idhAuIj_WrfJ3wgB5HS6bSfPbce8WJxqLEwEWA?e=ftelDM" style="color: white; text-decoration: none;">https://mycuhk-my.sharepoint.com/:f:/g/personal/1155145791_link_cuhk_edu_hk/EvIGO4s7idhAuIj_WrfJ3wgB5HS6bSfPbce8WJxqLEwEWA?e=ftelDM</a>
-</button> -->
 
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
@@ -45,13 +41,6 @@ Image Resolution | Year | Structure Type | Number of Images | Defect Type | Anno
   <img src="./sample.png" width=80% height=80%> 
 </p>
 
-<!-- <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
-<h2>Defect Detection Framework based on CUBIT</h2>
-</div>
-The visualization of defect detection framework based on CUBIT dataset is illustrated below, which encompasses the entire process: data collection by autonomous unmanned system; the baseline network integrated with our GIPFPP module; the output of defect detection results. 
-<p align="center">
-  <img src="./frame.png" width=80% height=80%> 
-</p> -->
 
 <div style="text-align: center; font-family: 'American Typewriter'; font-weight: 400; "> 
 <h2>Acknowledgement</h2>
