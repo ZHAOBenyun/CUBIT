@@ -18,8 +18,6 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, J
 2.School of Electronics and Information Engineering,Tongji University
 </div>
 
-
-<br>
 <div style="display: flex; flex-direction: row; margin: 10px auto; justify-content: center" > 
 <button style="background-color: #000000; color: white;margin-centre: 15px; padding: 10px 15px;border: none; border-radius: 5px;">
 <a href="https://doi.org/10.1016/j.autcon.2024.105405" style="color: white; text-decoration: none;">Paper from Automation in Construction</a>
