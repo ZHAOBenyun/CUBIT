@@ -27,7 +27,7 @@ Benyun Zhao<sup>1</sup>, Xunkuai Zhou<sup>2,1</sup>, Guidong Yang<sup>1</sup>, J
 Dataset can be available at: 
 <button style="background-color: #000000; color: white; margin: 0 auto; padding: 10px 15px;border: none; border-radius: 5px;">
 <a href="https://mycuhk-my.sharepoint.com/:f:/g/personal/1155145791_link_cuhk_edu_hk/Erp8qLcMospKnf2d7rN4BwEBEpaWDf80YvMGeIxjWmbZlg?e=THmVvp" style="color: white; text-decoration: none;">OneDrive</a> 
-</button> or 
+</button> Password of Onedrive: cubit-det, 
 <button style="background-color: #000000; color: white; margin: 0 auto; padding: 10px 15px;border: none; border-radius: 5px;">
 <a href="https://pan.baidu.com/s/1qrT1zWoQ_ZPvT7ZzKU9k2w?pwd=njyr" style="color: white; text-decoration: none;">BaiduNet</a> 
 </button>
